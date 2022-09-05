@@ -25,6 +25,6 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3 # 脚本来自： https://github.com/JamesIves/github-pages-deploy-action
         with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.DEPLOY_KEY }}
           BRANCH: gh-pages
           FOLDER: build
